@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+
+#mainBox {
+    position: relative;
+    width: 100vw;
+    height: 1900px;
+
+    background: #000000;
+}
+
+#halfBox {
+    position: absolute;
+    width: 100vw;
+    height: 877px;
+    left: 0px;
+    top: 0px;
+
+    background: #f5efef;
+}
+
+#innerBox {
+    padding: 25px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: absolute;
+    width: 90vw;
+    height: 620px;
+    left: 72px;
+    top: 200px;
+    font-weight: 100;
+    font-size: 20px;
+    border: 2px solid #000000;
+}
+
+#heading1 {
+    position: absolute;
+    /* width: 692.27px; */
+    /* height: 144px; */
+    left: 72px;
+    /* top: 101px; */
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 121px;
+
+    color: #000000;
+
+}
+
+#heading2 {
+    position: absolute;
+    /* width: 1241px; */
+    /* height: 160px; */
+    left: 72px;
+    top: 60px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 121px;
+
+    color: #000000;
+}
+
+#address {
+    position: absolute;
+    /* width: 1241px; */
+    /* height: 160px; */
+    left: 72px;
+    top: 900px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    /* font-size: 100px; */
+    line-height: 121px;
+
+    color: #FFFFFF;
+
+}
+
+#inputBox {
+    box-sizing: border-box;
+    background-color: black;
+    position: absolute;
+    width: 85vw;
+    height: 50px;
+    left: 72px;
+    top: 985px;
+    color: rgb(119, 112, 112);
+    border: 1px solid #e9e3e3;
+}
+
+#sbmtBtn {
+    position: absolute;
+    width: 260.75px;
+    height: 58px;
+    left: 72px;
+    top: 1094px;
+
+    background: #FFFFFF;
+}
+
+#errorFound {
+position: absolute;
+width: 369.43px;
+height: 29px;
+left: 92px;
+top: 1216px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+
+
+color: #E84444;
+
+}
+
+#yourResult {
+    box-sizing: border-box;
+    color: white;
+    position: absolute;
+    width: 90vw;
+    height: 620px;
+    left: 72px;
+    top: 1169px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-weight: 100;
+    font-size: 20px;
+    /* border: 2px solid white; */
+    color: white;
+    padding: 25px;
+}
